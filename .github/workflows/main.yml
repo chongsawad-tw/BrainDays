@@ -19,6 +19,11 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: Set Xcode Version
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: 15.0.1
+
       - name: Run tests 
         run: |
           bundle exec fastlane ios tests

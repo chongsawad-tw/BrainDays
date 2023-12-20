@@ -117,3 +117,4 @@ fastlane/.env.*
 *.ipa
 *.zip
 artifacts
+Gemfile.lock
