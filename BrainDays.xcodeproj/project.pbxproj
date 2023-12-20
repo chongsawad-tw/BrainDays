@@ -14,6 +14,7 @@
 		C8DF7E6F2B32C1C600460F68 /* BrainDaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DF7E6E2B32C1C600460F68 /* BrainDaysTests.swift */; };
 		C8DF7E792B32C1C600460F68 /* BrainDaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DF7E782B32C1C600460F68 /* BrainDaysUITests.swift */; };
 		C8DF7E7B2B32C1C600460F68 /* BrainDaysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DF7E7A2B32C1C600460F68 /* BrainDaysUITestsLaunchTests.swift */; };
+		C8DF7E882B32CA7E00460F68 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DF7E872B32CA7E00460F68 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C8DF7E742B32C1C600460F68 /* BrainDaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainDaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DF7E782B32C1C600460F68 /* BrainDaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainDaysUITests.swift; sourceTree = "<group>"; };
 		C8DF7E7A2B32C1C600460F68 /* BrainDaysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainDaysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8DF7E872B32CA7E00460F68 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			children = (
 				C8DF7E782B32C1C600460F68 /* BrainDaysUITests.swift */,
 				C8DF7E7A2B32C1C600460F68 /* BrainDaysUITestsLaunchTests.swift */,
+				C8DF7E872B32CA7E00460F68 /* SnapshotHelper.swift */,
 			);
 			path = BrainDaysUITests;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				C8DF7E7B2B32C1C600460F68 /* BrainDaysUITestsLaunchTests.swift in Sources */,
 				C8DF7E792B32C1C600460F68 /* BrainDaysUITests.swift in Sources */,
+				C8DF7E882B32CA7E00460F68 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
