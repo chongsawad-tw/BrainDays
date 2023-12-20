@@ -10,4 +10,7 @@ import XCTest
 
 final class BrainDaysTests: XCTestCase {
 
+    func testDayRun() {
+        XCTAssertTrue("Test" == "Test")
+    }
 }
