@@ -1,16 +1,18 @@
 default_platform(:ios)
 
 platform :ios do
-  desc "Run tests"
+  desc "Run all tests"
   lane :tests do
     scan(scheme: "BrainDays")
   end
 
   desc "Generate new localized screenshots"
   lane :screenshots do
-    capture_screenshots(
-      scheme: "BrainDays",
-      devices: ["iPhone 15"]
-    )
+    capture_screenshots(scheme: "BrainDays")
+  end
+
+  desc "Run unit tests"
+  lane :unit_tests do
+    run_tests(scheme: "BrainDaysTests")
   end
 end

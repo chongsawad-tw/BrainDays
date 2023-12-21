@@ -21,7 +21,7 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 [bundle exec] fastlane ios tests
 ```
 
-Run tests
+Run all tests
 
 ### ios screenshots
 
@@ -30,6 +30,14 @@ Run tests
 ```
 
 Generate new localized screenshots
+
+### ios unit_tests
+
+```sh
+[bundle exec] fastlane ios unit_tests
+```
+
+Run unit tests
 
 ----
 

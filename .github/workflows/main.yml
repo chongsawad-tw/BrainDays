@@ -24,6 +24,6 @@ jobs:
         with:
           xcode-version: '15.0.1'
 
-      - name: Run tests 
+      - name: Run unit tests 
         run: |
-          bundle exec fastlane ios tests
+          bundle exec fastlane ios unit_tests

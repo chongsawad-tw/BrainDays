@@ -15,6 +15,20 @@
             <AutocreatedTestPlanReference>
             </AutocreatedTestPlanReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C8DF7E592B32C1C500460F68"
+               BuildableName = "BrainDays.app"
+               BlueprintName = "BrainDays"
+               ReferencedContainer = "container:BrainDays.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -29,9 +43,9 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C8DF7E732B32C1C600460F68"
-               BuildableName = "BrainDaysUITests.xctest"
-               BlueprintName = "BrainDaysUITests"
+               BlueprintIdentifier = "C8DF7E692B32C1C600460F68"
+               BuildableName = "BrainDaysTests.xctest"
+               BlueprintName = "BrainDaysTests"
                ReferencedContainer = "container:BrainDays.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -55,15 +69,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C8DF7E732B32C1C600460F68"
-            BuildableName = "BrainDaysUITests.xctest"
-            BlueprintName = "BrainDaysUITests"
-            ReferencedContainer = "container:BrainDays.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
