@@ -24,6 +24,14 @@ jobs:
         with:
           xcode-version: '15.0.1'
 
+      - name: Load env
+        run: |
+          cat fastlane/.env >> $GITHUB_ENV
+
       - name: Run unit tests 
         run: |
           bundle exec fastlane ios unit_tests
+
+      - name:  Screenshot after completed
+        if: ${{ env.ENABLE_SCREENSHOT_MODE == 'true' }}
+        run: bundle exec fastlane ios screenshots
