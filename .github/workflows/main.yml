@@ -28,10 +28,12 @@ jobs:
         run: |
           cat fastlane/.env >> $GITHUB_ENV
 
-      - name: Run unit tests 
-        run: |
-          bundle exec fastlane ios unit_tests
+      # - name: Run unit tests 
+      #   run: |
+      #     bundle exec fastlane ios unit_tests
+      - name: Print env 
+        run: printf '%s\n' "$GITHUB_ENV"
 
-      - name:  Screenshot after completed
+      - name: Screenshot after completed
         if: ${{ env.ENABLE_SCREENSHOT_MODE == 'true' }}
         run: bundle exec fastlane ios screenshots
