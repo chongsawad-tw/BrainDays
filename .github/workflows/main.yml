@@ -35,5 +35,5 @@ jobs:
         run: printf '%s\n' "$GITHUB_ENV"
 
       - name: Screenshot after completed
-        if: ${{ env.ENABLE_SCREENSHOT_MODE == 'true' }}
+        if: ${{ env.ENABLE_SCREENSHOT_MODE == 1 }}
         run: bundle exec fastlane ios screenshots
